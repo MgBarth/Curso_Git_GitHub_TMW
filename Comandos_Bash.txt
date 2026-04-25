@@ -1,0 +1,21 @@
+CÓDIGOS
+
+== GIT ==
+
+ls -> Lista as pastas do diretório que estamos.
+
+ls -a -> Lista todas as pastas do diretório, inclusive as pastas e arquivos ocultos.
+
+cd ___ -> Para alterar o diretório. Ex: cd Desktop/ (para entrar na pasta 'Desktop' do diretório que estamos)
+
+cd .. -> Retorna para a pasta acima da que nos encontramos.
+
+pwd -> Mostra o caminho absoluta de onde estamos. O caminho que nos encontramos no momento.
+
+mkdir ___ -> Cria um diretório (uma pasta) dentro do diretório atual. mkdir = make a directory.
+
+cat ___ -> Mostra o que está dentro do arquivo que colocamos para ler.
+
+git init . -> Transforma a pasta em uma pasta passível de receber um repositório Git. Gera uma pasta oculta chamada '.git/', que é o que torna essa pasta especial. Para desfazer isso, é necessário apagar a pasta '.git/' do diretório, utilizando o comando 'rm -rf .git/'.
+
+rm -rf ___ -> Exclui a pasta descrita. MUITO CUIDADO AO UTILIZAR ESTE COMANDO!!!!!
