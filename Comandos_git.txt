@@ -1,0 +1,8 @@
+Aqui é um editor de texto dentro do bash!! Não é um terminal de código.
+
+git init . -> cria um repositório na pasta atual
+git status -> mostra o status do trabalho (de cada arquivo)
+git add nome_arquivo -> adiciona o arquivo para o commit.
+git commit -m "msg" -> faz o commit do que estava para ser commitado
+ctrl + o -> salva este arquivo
+ctrl + x -> sai deste editor e retorna para o terminal

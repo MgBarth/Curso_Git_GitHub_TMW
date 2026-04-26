@@ -19,3 +19,19 @@ cat ___ -> Mostra o que está dentro do arquivo que colocamos para ler.
 git init . -> Transforma a pasta em uma pasta passível de receber um repositório Git. Gera uma pasta oculta chamada '.git/', que é o que torna essa pasta especial. Para desfazer isso, é necessário apagar a pasta '.git/' do diretório, utilizando o comando 'rm -rf .git/'.
 
 rm -rf ___ -> Exclui a pasta descrita. MUITO CUIDADO AO UTILIZAR ESTE COMANDO!!!!!
+
+git status -> Me traz os commits realizados e arquivos que não possuem versionamento (que não foram trakeados para versionar).
+
+git add ___ -> Adiciona o arquivo na lista dos arquivos a serem commitados (para ser versionado).
+
+git commit -m "Título que eu quiser dar para o checkpoint" -> Para criar o commit de fato, já o nomeando. O nome é para identificar a alteração a se fazer ou o ponto ao qual o código estava antes do commit ser realizado.
+
+git config --global user.email "email@email.com" -> Para adicionar a identificação de email de quem esta commitando. Basicamente a assinatura de quem está alterando o código.
+
+git config --global user.name "nome usuário" -> Para adicionar a identificação pelo nome do usuário. Usa-se os dois comando para adicionar a identificação, primeiro um e depois o outro.
+
+git config --global user.name (OU) user.email -> Para mostrar qual a 'assinatura' ativa no momento.
+
+Versionamento é o processo de registrar e gerenciar alterações em arquivos, códigos ou documentos ao longo do tempo, atribuindo nomes ou números únicos (versões) a cada modificação. Ele permite rastrear o histórico, restaurar estados anteriores e colaborar de forma eficiente, sendo essencial para desenvolvimento de software.
+
+(main): Se refere a versão principal de nosso arquivo. 'História principal'.
