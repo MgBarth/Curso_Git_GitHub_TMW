@@ -41,3 +41,13 @@ git log -> Mostra o histórico de todos os commits feitos.
 Versionamento é o processo de registrar e gerenciar alterações em arquivos, códigos ou documentos ao longo do tempo, atribuindo nomes ou números únicos (versões) a cada modificação. Ele permite rastrear o histórico, restaurar estados anteriores e colaborar de forma eficiente, sendo essencial para desenvolvimento de software.
 
 (main): Se refere a versão principal de nosso arquivo. 'História principal'.
+
+## FLUXO DE TRABALHO
+
+1. Criar diretório para trabalhar
+2. Iniciar o git no diretório (git init .)
+3. Criar ou editar arquivos
+4. git add <nome do arquivo>
+5. git status : Para verificar se são os arquivos que queremos commitar mesmo.
+6. git commit -m "mensagem do commit"
+7. volta para o passo 3
