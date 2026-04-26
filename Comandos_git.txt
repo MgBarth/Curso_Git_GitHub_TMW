@@ -6,3 +6,5 @@ git add nome_arquivo -> adiciona o arquivo para o commit.
 git commit -m "msg" -> faz o commit do que estava para ser commitado
 ctrl + o -> salva este arquivo
 ctrl + x -> sai deste editor e retorna para o terminal
+
+Alteração
