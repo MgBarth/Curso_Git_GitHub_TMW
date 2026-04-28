@@ -12,7 +12,7 @@ cd .. -> Retorna para a pasta acima da que nos encontramos.
 
 pwd -> Mostra o caminho absoluta de onde estamos. O caminho que nos encontramos no momento.
 
-mkdir ___ -> Cria um diretório (uma pasta) dentro do diretório atual. mkdir = make a directory.
+*mkdir ___ -> Cria um diretório (uma pasta) dentro do diretório atual. mkdir = make a directory.
 
 cat ___ -> Mostra o que está dentro do arquivo que colocamos para ler.
 
@@ -20,23 +20,33 @@ git init . -> Transforma a pasta em uma pasta passível de receber um repositór
 
 rm -rf ___ -> Exclui a pasta descrita e tudo nela. MUITO CUIDADO AO UTILIZAR ESTE COMANDO!!!!!
 
-git status -> Me traz os commits realizados e arquivos que não possuem versionamento (que não foram trakeados para versionar).
+*git status -> Me traz os commits realizados e arquivos que não possuem versionamento (que não foram trakeados para versionar).
 
-git add ___ -> Adiciona o arquivo na lista dos arquivos a serem commitados (para ser versionado).
+*git add ___ -> Adiciona o arquivo na lista dos arquivos a serem commitados (para ser versionado).
 
-git add . -> Adiciona todos os arquivos da pasta atual para ser commitado.
+*git add . -> Adiciona todos os arquivos da pasta atual para ser commitado.
 
-git commit -m "Título que eu quiser dar para o checkpoint" -> Para criar o commit de fato, já o nomeando. O nome é para identificar a alteração a se fazer ou o ponto ao qual o código estava antes do commit ser realizado.
+*git reset <nome do arquivo> -> Retira o arquivo do commit.
+
+*git commit -m "Título que eu quiser dar para o checkpoint" -> Para criar o commit de fato, já o nomeando. O nome é para identificar a alteração a se fazer ou o ponto ao qual o código estava antes do commit ser realizado.
 
 git config --global user.email "email@email.com" -> Para adicionar a identificação de email de quem esta commitando. Basicamente a assinatura de quem está alterando o código.
 
 git config --global user.name "nome usuário" -> Para adicionar a identificação pelo nome do usuário. Usa-se os dois comando para adicionar a identificação, primeiro um e depois o outro.
 
-git config --global user.name (OU) user.email -> Para mostrar qual a 'assinatura' ativa no momento.
+*git config --global user.name (OU) user.email -> Para mostrar qual a 'assinatura' ativa no momento.
 
 nano ___ -> É um editor de texto dentro do Bash, para alterar o arquivo que estamos commitando.
 
-git log -> Mostra o histórico de todos os commits feitos.
+*git log -> Mostra o histórico de todos os commits feitos.
+
+*git diff <nome do arquivo> -> Mostra as alterações do estado atual do arquivo para o commit anterior. IMPORTANTE DEMAIS.
+
+*git checkout -b "nome da 'linha do tempo'" -> Para criar uma nova branch (uma nova ramificação), isolando os arquivos para mudanças que não alterem a branch principal. Como se criasse uma cópia dos arquivos para modifica-los.
+
+git branch -> Mostra todas as branch's do nosso projeto/repositório Git.
+
+git checkout "nome de alguma branch já existente" -> Passamos a estar na branch selecionada.
 
 Versionamento é o processo de registrar e gerenciar alterações em arquivos, códigos ou documentos ao longo do tempo, atribuindo nomes ou números únicos (versões) a cada modificação. Ele permite rastrear o histórico, restaurar estados anteriores e colaborar de forma eficiente, sendo essencial para desenvolvimento de software.
 
