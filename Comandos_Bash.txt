@@ -48,8 +48,11 @@ git branch -> Mostra todas as branch's do nosso projeto/repositório Git.
 
 *git checkout "nome de alguma branch já existente" -> Passamos a estar na branch selecionada.
 
-*git merge <nome da branch a ser trazida> -> 'Mistura' a branch que nos encontramos com a descrita no comando, como se trouxesse o 'progresso' da selecionada para a atual.
+*git merge <nome da branch a ser trazida> -> 'Mistura' a branch que nos encontramos com a descrita no comando, como se trouxesse o 'progresso' da selecionada para a atual. Traz as ALTERAÇÕES da outra branch, e não os arquivos. Caso tenham sido criado arquivos novos, o arquivo vem.
 
+git branch -D <nome da branch> -> Apaga a branch descrita. Feito após o 'merge' para fazer uma limpeza em nosso diretório.
+
+##
 Versionamento é o processo de registrar e gerenciar alterações em arquivos, códigos ou documentos ao longo do tempo, atribuindo nomes ou números únicos (versões) a cada modificação. Ele permite rastrear o histórico, restaurar estados anteriores e colaborar de forma eficiente, sendo essencial para desenvolvimento de software.
 
 (main): Se refere a versão principal de nosso arquivo. 'História principal'.
