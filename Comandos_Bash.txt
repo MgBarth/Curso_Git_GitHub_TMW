@@ -42,11 +42,13 @@ nano ___ -> É um editor de texto dentro do Bash, para alterar o arquivo que est
 
 *git diff <nome do arquivo> -> Mostra as alterações do estado atual do arquivo para o commit anterior. IMPORTANTE DEMAIS.
 
-*git checkout -b "nome da 'linha do tempo'" -> Para criar uma nova branch (uma nova ramificação), isolando os arquivos para mudanças que não alterem a branch principal. Como se criasse uma cópia dos arquivos para modifica-los.
+*git checkout -b <nome da 'linha do tempo'/branch> -> Para criar uma nova branch (uma nova ramificação), isolando os arquivos para mudanças que não alterem a branch principal. Como se criasse uma cópia dos arquivos para modifica-los.
 
 git branch -> Mostra todas as branch's do nosso projeto/repositório Git.
 
-git checkout "nome de alguma branch já existente" -> Passamos a estar na branch selecionada.
+*git checkout "nome de alguma branch já existente" -> Passamos a estar na branch selecionada.
+
+*git merge <nome da branch a ser trazida> -> 'Mistura' a branch que nos encontramos com a descrita no comando, como se trouxesse o 'progresso' da selecionada para a atual.
 
 Versionamento é o processo de registrar e gerenciar alterações em arquivos, códigos ou documentos ao longo do tempo, atribuindo nomes ou números únicos (versões) a cada modificação. Ele permite rastrear o histórico, restaurar estados anteriores e colaborar de forma eficiente, sendo essencial para desenvolvimento de software.
 
