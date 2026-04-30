@@ -61,11 +61,15 @@ git remote add origin <url do repositório do github> -> Cria o link/ligação c
 
 git push origin main -> Puxa todos os arquivos e commits do repositório local (main) para o repositório em nuvem (origin, que no caso é no GitHub). Toda vez que fizermos uma alteração em nosso repositório local, ela não será enviada automaticamente para o GitHub. Precisamos realizar o comando 'git push origin main' todas as vezes que quisermos atualizar nosso repositório em nuvem!
 
+git pull origin main -> Puxa todos os arquivos e commits do repositório em nuvem (origin) para o repositório local (main). Quando fazemos alterações na nuvem, precisamos fazer isso para atualizar o repositório em nosso computador.
 
 ---
 
 ##
-Versionamento é o processo de registrar e gerenciar alterações em arquivos, códigos ou documentos ao longo do tempo, atribuindo nomes ou números únicos (versões) a cada modificação. Ele permite rastrear o histórico, restaurar estados anteriores e colaborar de forma eficiente, sendo essencial para desenvolvimento de software.
+
+Versionamento: é o processo de registrar e gerenciar alterações em arquivos, códigos ou documentos ao longo do tempo, atribuindo nomes ou números únicos (versões) a cada modificação. Ele permite rastrear o histórico, restaurar estados anteriores e colaborar de forma eficiente, sendo essencial para desenvolvimento de software.
+
+* Pull Request: é a sinalização para GitHub, de que pretendemos realizar um merge. Em geral, é a solicitação de merge que ficará disponível para que possam aprová-la, antes do merge ser realizado de fato. "Solicitação para puxar".
 
 (main): Se refere a versão principal de nosso arquivo. 'História principal'.
 
