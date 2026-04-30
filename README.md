@@ -1,2 +1,2 @@
-\#Curso TMW Git \& GitHub
+\# Curso de Git e GitHub TMW
 
