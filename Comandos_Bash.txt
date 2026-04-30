@@ -2,6 +2,8 @@ CÓDIGOS
 
 == GIT ==
 
+git --help -> Mostra os comandos git.
+
 ls -> Lista as pastas do diretório que estamos.
 
 ls -a -> Lista todas as pastas do diretório, inclusive as pastas e arquivos ocultos.
@@ -44,13 +46,23 @@ nano ___ -> É um editor de texto dentro do Bash, para alterar o arquivo que est
 
 *git checkout -b <nome da 'linha do tempo'/branch> -> Para criar uma nova branch (uma nova ramificação), isolando os arquivos para mudanças que não alterem a branch principal. Como se criasse uma cópia dos arquivos para modifica-los.
 
-git branch -> Mostra todas as branch's do nosso projeto/repositório Git.
+*git branch -> Mostra todas as branch's do nosso projeto/repositório Git.
 
 *git checkout "nome de alguma branch já existente" -> Passamos a estar na branch selecionada.
 
 *git merge <nome da branch a ser trazida> -> 'Mistura' a branch que nos encontramos com a descrita no comando, como se trouxesse o 'progresso' da selecionada para a atual. Traz as ALTERAÇÕES da outra branch, e não os arquivos. Caso tenham sido criado arquivos novos, o arquivo vem.
 
-git branch -D <nome da branch> -> Apaga a branch descrita. Feito após o 'merge' para fazer uma limpeza em nosso diretório.
+*git branch -D <nome da branch> -> Apaga a branch descrita. Feito após o 'merge' para fazer uma limpeza em nosso diretório.
+
+----
+## GITHUB
+
+git remote add origin <url do repositório do github> -> Cria o link/ligação com o repositório do GitHub.
+
+git push origin main -> Puxa todos os arquivos e commits do repositório local (main) para o repositório em nuvem (origin, que no caso é no GitHub). Toda vez que fizermos uma alteração em nosso repositório local, ela não será enviada automaticamente para o GitHub. Precisamos realizar o comando 'git push origin main' todas as vezes que quisermos atualizar nosso repositório em nuvem!
+
+
+---
 
 ##
 Versionamento é o processo de registrar e gerenciar alterações em arquivos, códigos ou documentos ao longo do tempo, atribuindo nomes ou números únicos (versões) a cada modificação. Ele permite rastrear o histórico, restaurar estados anteriores e colaborar de forma eficiente, sendo essencial para desenvolvimento de software.
