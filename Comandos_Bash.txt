@@ -54,6 +54,8 @@ nano ___ -> É um editor de texto dentro do Bash, para alterar o arquivo que est
 
 *git branch -D <nome da branch> -> Apaga a branch descrita. Feito após o 'merge' para fazer uma limpeza em nosso diretório.
 
+git clone <url do repositório ou fork> -> Cria um repositório igual ao que está na nuvem, porém na máquina que estamos trabalhando. Assim podemos trabalhar em nosso computador de forma local.
+
 ----
 ## GITHUB
 
@@ -72,6 +74,12 @@ Versionamento: é o processo de registrar e gerenciar alterações em arquivos, 
 * Pull Request: é a sinalização para GitHub, de que pretendemos realizar um merge. Em geral, é a solicitação de merge que ficará disponível para que possam aprová-la, antes do merge ser realizado de fato. "Solicitação para puxar".
 
 (main): Se refere a versão principal de nosso arquivo. 'História principal'.
+
+---
+
+## VScode
+
+Quando o arquivo apresenta um "M" ao lado, significa que ele possui modificação que não foram commitadas.
 
 ## FLUXO DE TRABALHO
 

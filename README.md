@@ -8,3 +8,4 @@ Curso para iniciantes aprenderem a trabalhar com versionamento de códigos e rep
 
 Além disso, trabalharemos com GitFlow ao final do curso e VScode.
 
+[Curso Git] (https://youtube.com/@teomewhy)
