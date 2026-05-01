@@ -65,6 +65,12 @@ git push origin main -> Puxa todos os arquivos e commits do repositório local (
 
 git pull origin main -> Puxa todos os arquivos e commits do repositório em nuvem (origin) para o repositório local (main). Quando fazemos alterações na nuvem, precisamos fazer isso para atualizar o repositório em nosso computador.
 
+git fetch -> Trás todas as branch's do repositório em nuvem para o local.
+Quando adicionar pelo <git fetch> é necessário realizar o comando git checkout <nome da branch adicionada>, para
+o computador localizar a branch nova. Dar o comando 'git branch' não será o suficiente para que ela apareça como
+disponível. Após isso realizamos um 'git pull origin <branch trazida pelo fetch>' para nos certificarmos que a
+branch local está sincronizada com a branch em nuvem.
+
 ---
 
 ##

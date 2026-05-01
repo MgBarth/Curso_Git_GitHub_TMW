@@ -1,0 +1,13 @@
+## GITFLOW
+
+É uma forma de organização do trabalho para ambientes de programação, utilizando o versionamento de código.
+
+O GitFlow funciona, de forma resumida, da seguinte forma:
+
+1. Criamos uma branch chamada 'develop', da qual funcionará como uma main 'provisória', assim não agindo diretamente
+na main de nosso diretório.
+2. A partir disso, tratamos a develop como main quando fizermos os commits.
+3. Seguindo a lógica, geramos outras branch's para evitar bagunçar nossa main provisória, identificando-as com um
+determinado padrão.
+4. Quando finalizarmos o projeto, aí sim commitamos a develop para a main (sem apagar a develop, pois sempre pode
+haver o que melhorar do projeto)
