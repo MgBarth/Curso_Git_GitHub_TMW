@@ -105,6 +105,11 @@ O '*' nesse caso está dizendo: considere todos os arquivos que terminarem com '
 estaríamos dizendo, considere todos os arquivos que começarem com '.pptx' (o que não faria sentido, mas a título de
 explicação).
 
+.gitkeep -> Criamos um arquivo com este nome dentro da pasta com os arquivos que estão identificados no git ignore, pois
+queremos que a pasta em que os arquivos se encontram apareça no repositório em nuvem (quando o github identifica uma pasta
+'vazia', ele a ignora, não subindo para o repositório em nuvem). Com o arquivo de nome '.gitkeep' dentro da pasta, ela
+irá aparecer em nosso repositório.
+
 ## FLUXO DE TRABALHO
 
 1. Criar diretório para trabalhar
