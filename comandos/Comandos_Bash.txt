@@ -1,4 +1,4 @@
-CÓDIGOS
+CÓDIGOS (o * indica que é crucial)
 
 == GIT ==
 
@@ -86,6 +86,29 @@ Versionamento: é o processo de registrar e gerenciar alterações em arquivos, 
 ## VScode
 
 Quando o arquivo apresenta um "M" ao lado, significa que ele possui modificação que não foram commitadas.
+
+---
+
+## GitKeep & GitIgnore
+
+O git (e consequentemente o GitHub) não mapeia arquivos binários, ou seja, arquivos feitos apenas para a máquina
+interpretar como no caso de arquivos no formato de PowerPoint (.pptx). Por isso, não adicionamos arquivos assim em nosso
+processo de **versionamento**, para que não de erro no momento que ler no GitHub.
+
+Podemos trabalhar com estes arquivos, mas não os adicionamos em nosso versionamento do código! Ou seja, quando precisarmos
+deles, baixamos e trabalhamos localmente com ele.
+
+.gitignore -> Criamos um arquivo com este nome, e o nome dos arquivos que colocarmos dentro dele (do .gitignore no caso)
+serão ignorados para o versionamento. No caso em questão, adicionamos todos os arquivos no formato de .pptx, colocando o
+comando '*.pptx' dentro do arquivo .gitignore.
+O '*' nesse caso está dizendo: considere todos os arquivos que terminarem com '.pptx'. Caso fosse escrito como '.pptx*',
+estaríamos dizendo, considere todos os arquivos que começarem com '.pptx' (o que não faria sentido, mas a título de
+explicação).
+
+.gitkeep -> Criamos um arquivo com este nome dentro da pasta com os arquivos que estão identificados no git ignore, pois
+queremos que a pasta em que os arquivos se encontram apareça no repositório em nuvem (quando o github identifica uma pasta
+'vazia', ele a ignora, não subindo para o repositório em nuvem). Com o arquivo de nome '.gitkeep' dentro da pasta, ela
+irá aparecer em nosso repositório.
 
 ## FLUXO DE TRABALHO
 
